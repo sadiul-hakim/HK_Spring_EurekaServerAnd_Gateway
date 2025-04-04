@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    discovery:
+      client:
+        simple:
+          instances:
+            SPRINGSERVER:
+              - uri: http://localhost:9091
+              - uri: http://localhost:9092
